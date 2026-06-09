@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>我的集锦</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h2>我的集锦</h2>
+  </div>
+
+  <div id="status" class="status"></div>
+
+  <div class="toolbar">
+    <input id="folderName" placeholder="输入文件夹名称">
+    <button id="addFolder">新建文件夹</button>
+  </div>
+
+  <div class="toolbar">
+    <select id="folderSelect"></select>
+    <button id="addCurrent">添加当前页面</button>
+  </div>
+
+  <div class="sync-bar">
+    <button id="exportBtn">导出到文件夹</button>
+    <button id="importBtn">从文件夹导入</button>
+  </div>
+
+  <div id="content"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
